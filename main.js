@@ -20,12 +20,9 @@ function addContact(event) {
     phone: form.phone.value,
     emergencyContact: form.emergencyContact.checked
   }
-
   contacts.push(contact)
   saveContacts()
-
   form.reset()
-
   drawContacts()
 }
 
